@@ -3,6 +3,7 @@ let root = document.querySelector('#root');
 
  export const TraditionCuestion = () =>{
 let templeteTradition =`
+<div id="templeTradition">
 <form>
 <h1>TRADICIONES DE MEXICO</h1>
   <p>¿En México hay una celebracion azteca en honor a "la dama de la muerte" es?</p>
@@ -26,6 +27,7 @@ let templeteTradition =`
 <input type="button" value="Respuestas correctas" id="answer"> 
 <p id="Outcome"><p>
 </form>
+</div>
 `;
 root.innerHTML = templeteTradition;
 let btn = document.querySelector('#answer');

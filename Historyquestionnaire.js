@@ -8,7 +8,7 @@ export const historyQuestionnaire = () =>{
 let cuestion1 = `
 <div class='templeHistory'>
   <form>
-  <p>HISTORIA DE MEXICO</p>
+  <h1>HISTORIA DE MEXICO</H1>
   <p>¿En dónde se encuentran las pirámides del Sol y la Luna?</p>
     <select name="cuestions" id="pyramids">
       <option value="1">A)Palenque</option>
