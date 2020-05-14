@@ -107,12 +107,12 @@ align-content: center;
   display: flex;
   align-content: center;
   top: 150px;
-  left: 850px;
+  left: 810px;
 }
 #fname{
   position: absolute;
   top: 250px;
-  left: 860px;
+  left: 830px;
   border-radius: 20px;
   width: 250px;
   height: 30px;
@@ -129,7 +129,7 @@ align-content: center;
 #enviar{
   position: absolute;
   top: 310px;
-  left: 915px;
+  left: 885px;
   width: 150px;
   height: 30px;
   background-color: #fdba9a;
