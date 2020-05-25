@@ -3,12 +3,12 @@ let root = document.querySelector('#root');
 
 export const welcome = () => {
 let welcomeView = `
-<div id='welcom'>
+<div id="welcom">
 <h1 class="welcom">TRIVIA MÉXICANA<h1/>
 <p class="name">¿Cuál es tu nombre?</p>
 <input type="text" id="fname" name="fname">
 <input type="button" id='enviar' value="enviar">
-<div>
+</div>
 `;
  root.innerHTML = welcomeView;
   let btn = document.querySelector('#enviar');
